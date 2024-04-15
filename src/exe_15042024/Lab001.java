@@ -9,5 +9,7 @@ public class Lab001 {
         int b = 30;
 
         System.out.println("Total="+ (a+b));
+
+        System.out.println("Test initial Push");
     }
 }
