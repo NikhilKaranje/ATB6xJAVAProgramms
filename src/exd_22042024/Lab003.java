@@ -1,4 +1,4 @@
-package exde_22042024;
+package exd_22042024;
 
 public class Lab003 {
     public static void main(String[] args) {
