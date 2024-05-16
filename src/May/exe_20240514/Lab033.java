@@ -1,4 +1,4 @@
-package May;
+package May.exe_20240514;
 
 import java.util.Scanner;
 
@@ -23,11 +23,12 @@ public class Lab033 {
         salary[3] = sc.nextInt();
 
         int max = 0;
-        for(int i =0; i< salary.length; i++){
-                if(salary[i]>max){
-                    max = salary[i];
-                }
-        }System.out.println("Max salary is = " +max);
+        for (int j : salary) {
+            if (j > max) {
+                max = j;
+            }
+        }
+        System.out.println("Max salary is = " +max);
 
     }
 }
