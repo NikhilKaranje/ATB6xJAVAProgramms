@@ -12,7 +12,7 @@ public class Lab035 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter number a = ");
         int a = sc.nextInt();
-        System.out.println("Enter numebr b = ");
+        System.out.println("Enter number b = ");
         int b = sc.nextInt();
 
         int sum = sumOfNumbers(a, b);
@@ -21,8 +21,6 @@ public class Lab035 {
     }
 
     static int sumOfNumbers(int a, int b) {
-
-       int sum = a+b;
-       return sum;
+       return a+b;
     }
 }
