@@ -26,8 +26,11 @@ class Student {
         System.out.println("Student Class is = " + this.div);
     }
 
-
-
+    public Student(String div, int age, String name) { //Parameterized Constructor
+        this.div = div;
+        this.age = age;
+        this.name = name;
+    }
 }
   public class OOPS{
       public static void main(String[] args) {
@@ -46,7 +49,7 @@ class Student {
           p2.printColor();
 
 
-          Student s1 = new Student();
+          Student s1 = new Student("a", 12, "Test");
 
           s1.name = "Nikhil";
           s1.age = 22;
