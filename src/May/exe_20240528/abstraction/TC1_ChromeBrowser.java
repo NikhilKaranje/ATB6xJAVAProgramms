@@ -4,8 +4,9 @@ public class TC1_ChromeBrowser extends BaseClass{
 
 
     @Override
-    void openBrowser() {
+    String openBrowser() {
         System.out.println("Starting Chrome Browser...");
+        return null;
     }
 
     @Override
